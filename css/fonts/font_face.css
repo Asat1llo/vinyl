@@ -1,0 +1,32 @@
+@font-face{
+    font-family: "Assistant";
+    src:local("Assistant") , url(./Assistant-Bold.woff) format("woff");
+}
+    
+@font-face{
+    font-family: "Assistant";
+    src:local("Assistant") , url(./Assistant-ExtraBold.woff) format("woff");
+}
+@font-face{
+    font-family: "Assistant";
+    src:local("Assistant") , url(./Assistant-ExtraLight.woff) format("woff");
+}
+
+@font-face{
+    font-family: "Assistant";
+    src:local("Assistant") , url(./Assistant-Light.woff) format("woff");
+}
+@font-face{
+    font-family: "Assistant";
+    src:local("Assistant") , url(./Assistant-Medium.woff) format("woff");
+}
+
+@font-face{
+    font-family: "Assistant";
+    src:local("Assistant") , url(./Assistant-Regular.woff) format("woff");
+}
+
+@font-face{
+    font-family: "Assistant";
+    src:local("Assistant") , url(./Assistant-SemiBold.woff) format("woff");
+}
