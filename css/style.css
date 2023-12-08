@@ -841,6 +841,29 @@
     }
 }
 
+@media only screen and (max-width:412px) {
+
+    .section__navbar {
+        max-width: 410px;
+        right: 0;
+        position: fixed;
+    }
+
+    .nav__box_logo {
+        margin-right: 0;
+        margin-left: 40px;
+    }
+    
+    .footer_box_list{
+        width: 304px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
 @media only screen and (max-width:375px) {
 
     .section__navbar {
