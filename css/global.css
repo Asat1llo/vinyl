@@ -9,7 +9,7 @@
 
 body {
     font-family: "Assistant" ;
-    /* background-color: var(--www-vinyl-eu-1440-x-810-default-outer-space, #2E3438); */
+    position: relative;
 }
 
 ul {
