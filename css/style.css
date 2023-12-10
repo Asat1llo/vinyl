@@ -644,7 +644,7 @@
     .section__navbar {
         max-width: 768px;
         right: 0;
-        position: fixed;
+        position:sticky;
     }
 
     .swiper__box {
@@ -746,7 +746,7 @@
     .section__navbar {
         max-width: 478px;
         right: 0;
-        position: fixed;
+        position: sticky;
     }
 
     .nav__box_list {
@@ -850,7 +850,7 @@
     .section__navbar {
         max-width: 425px;
         right: 0;
-        position: fixed;
+        position: sticky;
     }
 
     .nav__box_logo {
@@ -864,7 +864,7 @@
     .section__navbar {
         max-width: 410px;
         right: 0;
-        position: fixed;
+        position: sticky;
     }
 
     .nav__box_logo {
@@ -926,7 +926,7 @@
     .section__navbar {
         max-width: 320px;
         right: 0;
-        position: fixed;
+        position: sticky;
     }
 
     .nav__box_logo {
