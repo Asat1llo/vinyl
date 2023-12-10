@@ -62,14 +62,13 @@
 
 
 .section__navbar {
-    /* width: 1369px; */
     width: 100%;
-    position: fixed;
+    position: sticky;
     left: 0;
     right: 0;
     top: 0;
     opacity: 0.7;
-    background: var(--www-vinyl-eu-1440-x-810-default-outer-space, #2E3438);
+    background: var(--www-vinyl-eu-1440-x-810-default-outer-space, #2E3438);    
 }
 
 .nav__box {
@@ -127,15 +126,16 @@
 
 .section__swiper {
     width: 100%;
-    height: calc(100vh - 160px);
+    height: calc(100vh - 130px);
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url("../img/swiper_bg.png");
-    background-position-y: 100px;
-    background-position-x: center;
+    /* background-position-y: 100px; */
+    /* background-position-x: center; */
     background-repeat: no-repeat;
     background-color: black;
+    background-size: cover;
 }
 
 .swiper__box {
@@ -301,6 +301,7 @@
 .parts__box_purchase {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     gap: 32px;
 }
@@ -425,6 +426,7 @@
 .memori__box {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     padding-top: 96px;
     padding-bottom: 96px;
@@ -729,6 +731,18 @@
 }
 
 @media only screen and (max-width:478px) {
+
+    .header__box{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 0;
+
+    }
+
+    .header__box_title_name_2{
+        display: none;
+    }
+
     .section__navbar {
         max-width: 478px;
         right: 0;
@@ -897,6 +911,10 @@
 }
 
 @media only screen and (max-width:320px) {
+    .header__box{
+        display: flex;
+        justify-content: space-between;
+    }
 
     .section__navbar {
         max-width: 320px;
