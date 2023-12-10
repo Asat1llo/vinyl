@@ -843,6 +843,9 @@
 
 
 @media only screen and (max-width:425px) {
+    .swiper__box{
+        display: none;
+    }
 
     .section__navbar {
         max-width: 425px;
